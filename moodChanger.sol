@@ -9,7 +9,7 @@ contract createMood {
         moodList.push(_mood);
     }
     
-    //function to return the moodlist array
+    //function to return the whole moodlist array
     function returnMood() public view returns(string[] memory){
         return moodList;
     }
